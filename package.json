@@ -1,10 +1,15 @@
 {
   "name": "socket-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server chat",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kati18/jsramverk-socket-server.git"
   },
   "keywords": [],
   "author": "Katja Tibe",

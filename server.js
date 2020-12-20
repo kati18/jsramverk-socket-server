@@ -23,8 +23,10 @@ const io = require('socket.io')(server, {
     * has-been-blocked-by-cors-policy:
     */
     cors: {
+        // Below origin to be used when developing locally:
         // origin: 'http://localhost:4200',
-        origin: 'https://me-angular.ktibe.me:443'
+        // Below origin to be used on production server i e on Debian:
+        origin: 'https://me-angular.ktibe.me',
         methods: ['GET', 'POST']
     }
 });
@@ -45,7 +47,7 @@ app.get('/', (req, res) => {
 
 // the server instance of socket.io is Listening on the connection event for incoming sockets:
 io.on('connection', function (socket) {
-    console.info("socket-"objektet" från server.js: ", socket);
+    // console.info("socket-objektet från server.js: ", socket);
     console.info("User connected");
     console.info("socket.id från server.js: ", socket.id);
 
