@@ -2,13 +2,16 @@
 
 ## The project
 
-This project, a chat server, is released as an assignment and a part of a University course [DV1612 JavaScript-baserade webbramverk](https://jsramverk.se/) at BTH(Blekinge Institute of Technology) 2020.
+This project, a chat server and MongoDB database for fetching and storing data, is released as an assignment and a part of a University course [DV1612 JavaScript-baserade webbramverk](https://jsramverk.se/) at BTH(Blekinge Institute of Technology) 2020.
 
 ## Installations/dependencies
 
     - socket.io
     - @types/socket.io
     - express
+    - mongodb
+    - mongodb Node.js driver
+    - mongoose
 
 ## Production server
 
